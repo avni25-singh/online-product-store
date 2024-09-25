@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "name": "Cup",
+        "price": 100,
+        "image": "img/Cup.jpg",
+        "description": "A beautifully designed birthday cup, perfect for celebrating special occasions."
+    },
+    {
+        "id": 2,
+        "name": "Laptop",
+        "price": 44000,
+        "image": "img/laptop.jpg",
+        "description": "Lightweight laptop with fast processing, ideal for work, study, and multimedia entertainment."
+    },
+    {
+        "id": 3,
+        "name": "Handbag",
+        "price": 700,
+        "image": "img/handbag.jpg",
+        "description": "Stylish handbag with spacious compartments, perfect for daily use or special events."
+    },
+    {
+        "id": 4,
+        "name": "Mouse",
+        "price": 140,
+        "image": "img/mouse.jpg",
+        "description": "Ergonomic wireless mouse with smooth tracking, designed for comfort during extended use."
+    },
+    {
+        "id": 5,
+        "name": "Television",
+        "price": 50000,
+        "image": "img/television.jpg",
+        "description": "High-definition television with vibrant colors and immersive sound, perfect for home entertainment."
+    },
+    {
+        "id": 6,
+        "name": "Bottle",
+        "price": 150,
+        "image": "img/bottle.jpg",
+        "description": "Durable and stylish water bottle, perfect for keeping your drinks cold or hot on the go."
+    },
+    {
+        "id": 7,
+        "name": "Shoes",
+        "price": 4000,
+        "image": "img/shoes.jpg",
+        "description": "Comfortable and stylish shoes, designed for everyday wear with excellent support."
+    },
+    {
+        "id": 8,
+        "name": "Slipper",
+        "price": 600,
+        "image": "img/slipper.jpg",
+        "description": "Cozy slippers with soft lining, ideal for lounging at home and keeping your feet warm."
+    }
+]

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Listing</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to the CSS file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- Font Awesome -->
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h1 class="name">Online Store</h1>
+            <div class="header-icons">
+                <a href="#" aria-label="Search">
+                    <i class="fas fa-search"></i>
+                </a>
+                <a href="#" aria-label="Add to Cart">
+                    <i class="fas fa-shopping-cart"></i>
+                </a>
+                <a href="#" aria-label="Profile">
+                    <i class="fas fa-user"></i>
+                </a>
+            </div>
+        </header>
+        <!-- Navbar -->
+        <div>
+            <nav>
+                <ul class="navbar">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+   <!-- Homepage -->
+    <div class="home">
+      <h2>PRODUCTS</h2>
+      <P>HOME / SHOP</P>
+    </div>
+        <div class="search">
+            <input type="text" id="search-bar" placeholder="Search products...">
+            <select id="sort-options">
+                <option value="name">Sort by Name</option>
+                <option value="price">Sort by Price</option>
+            </select>
+        </div>
+
+        <div class="list">
+            <section id="product-list"></section>
+        </div>
+
+        <footer>
+            <div class="footer-container">
+                <!-- About Store Section -->
+                <div class="footer-column">
+                    <h3 class="name">Online Store</h3>
+                    <p>We are an online store dedicated to providing high-quality products at the best prices. Our mission is to offer a seamless shopping experience with exceptional customer service.</p>
+                </div>
+        
+                <!-- Navigation Links Section -->
+                <div class="footer-column">
+                    <h3>Quick Links</h3> <!-- Added h3 for accessibility -->
+                    <ul class="footer-navbar">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+        
+                <!-- Contact Information Section -->
+                <div class="footer-column">
+                    <h3>Contact Us</h3>
+                    <p>Email: <a href="mailto:info@productstore.com">info@productstore.com</a></p> <!-- Email link added for convenience -->
+                    <p>Phone: <a href="tel:+1234567890">+123 456 7890</a></p> <!-- Phone link added for mobile dialing -->
+                    <div class="footer-icons">
+                        <a href="#" aria-label="Facebook" class="social-icon">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" aria-label="Twitter" class="social-icon">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" aria-label="Instagram" class="social-icon">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" aria-label="LinkedIn" class="social-icon">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <p>&copy; 2024 Online Store. All rights reserved.</p> <!-- Updated name for consistency -->
+        </footer>
+        
+        
+        
+    </div>
+
+    <!-- Modal for product details -->
+    <div id="product-modal" class="modal"></div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
